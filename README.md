@@ -10,4 +10,4 @@ Code for the following, in the order that they appear in the python file:
 
 5.Turing machine
 
-6. Unrelated C++ code for some experimenting I was doing for collatz conjecture
+6.Unrelated C++ code for some experimenting I was doing for collatz conjecture
