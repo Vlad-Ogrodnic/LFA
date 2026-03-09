@@ -1,0 +1,13 @@
+#comantariu
+states: 0 1
+alphabet: 0 1
+start_state: 0
+accept_states: 1
+#Accepta doar input-uri care se termina in 1
+transitions:
+0 0 -> 0
+0 1 -> 1
+1 0 -> 0
+1 1 -> 1
+# Input
+0101010101011011011011011010000001001

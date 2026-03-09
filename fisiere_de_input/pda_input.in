@@ -1,0 +1,15 @@
+states: 0 1 2 3
+alphabet: 0 1 
+start_state: 0
+accept_states: 3
+#formatul tranzitiilor: stare_curenta: read,pop -> push,stare_noua
+0: epsilon,epsilon->$,1
+1: 0,epsilon->0,1
+1: epsilon,epsilon->epsilon,2
+2: 1,0->epsilon,2
+2: epsilon,$->epsilon,3
+#input:
+000111
+
+
+

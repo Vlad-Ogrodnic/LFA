@@ -1,0 +1,14 @@
+#comentariu
+states: q0 q1 q_accept q_reject
+alphabet: 0 1 □
+blank: □
+start_state: q0
+accept_states: q_accept
+reject_states: q_reject
+max_steps:100
+transitions:
+q0 □ -> 1 R q1
+q1 □ -> □ R q0
+
+#linia de sub e banda initiala
+□
